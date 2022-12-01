@@ -1,0 +1,50 @@
+
+
+
+
+@media all and (max-width:800px){
+    .hobbies {
+        padding: 0;
+    }
+
+    .footer {
+        height: 1000px;
+       }
+    }
+   
+   
+
+@media all and (max-width:650px) {
+    .hobbies__list {
+        width: 100%;
+    }
+   .footer {
+    height: 1000px;
+   }
+   .hobbies_img {
+   width: 50%;
+   }
+}
+   
+   @media all and (max-width:600px){
+    .hobbies_img {
+        display: none;
+    }
+
+   }
+
+  
+
+@media all and (max-width:450px) {
+    .footer {
+        height: 1400px;
+    }
+}
+@media all and (max-width:350px) {
+    .footer {
+        height: 1700px;
+    }
+    .education__img {
+        display: none;
+    }
+}
